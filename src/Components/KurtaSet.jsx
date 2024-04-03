@@ -221,7 +221,7 @@ export default function () {
               </span>
             </p>
           </div>
-          <div className=" bg-white">
+          <div className=" bg-white hidden md:block">
             <img
               className="w-[100%]"
               src="https://www.misskurti.com/thumb/thumb400X700/254980c9dcf4a50d4ed6770949bade09.jpg"

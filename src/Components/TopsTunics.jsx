@@ -220,7 +220,7 @@ export default function () {
               </span>
             </p>
           </div>
-          <div className=" bg-white">
+          <div className=" bg-white hidden md:block">
             <img
               className="w-[100%]"
               src="https://www.misskurti.com/thumb/thumb400X700/7b5cda01e08893512b402eee568d4d0a.jpg"

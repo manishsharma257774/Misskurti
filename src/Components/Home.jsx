@@ -3,6 +3,7 @@ import FirstSlider from "./OnSlider/FirstSlider";
 import SecondSlider from "./OnSlider/SecondSlider";
 import ThirdSlider from "./OnSlider/ThirdSlider";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
@@ -17,13 +18,13 @@ export default function Home() {
       <div className=" w-full h-auto p-[10px]">
         <ul className="flex items-center justify-center gap-[20px] font-medium text-[11px] text-neutral-600 sm:text-[15px]">
           <li class="p-4 border-b-2 border-[#c88843]  border-opacity-0 hover:border-opacity-100 hover:text-[#c88843]  duration-200 cursor-pointer active">
-            <a href="">NEW ARRIVALS</a>
+            <Link to={"/Home"}>NEW ARRIVALS</Link>
           </li>
           <li class="p-4 border-b-2 border-[#c88843]  border-opacity-0 hover:border-opacity-100 hover:text-[#c88843] duration-200 cursor-pointer">
-            <a href="">KURTASET</a>
+            <Link to={"/KurtaSet"}>KURTASET</Link>
           </li>
           <li class="p-4 border-b-2 border-[#c88843]  border-opacity-0 hover:border-opacity-100 hover:text-[#c88843]  duration-200 cursor-pointer">
-            <a href="">TOPS & TUNICS</a>
+            <Link to={"/TopsTunics"}>TOPS & TUNICS</Link>
           </li>
         </ul>
       </div>
@@ -65,10 +66,7 @@ export default function Home() {
           CATEGORIES{" "}
         </h1>
       </div>
-      {/* <div className=" h-auto w-full grid grid-cols-1 p-[40px] sm:grid-cols-2  border-2 border-solid border-red-500">
-        <div className="w-[40%] border-2 border-solid border-red-500 h-[600px]"></div>
-        <div className="w-[100%] border-2 border-solid border-red-200 h-[600px]"></div>
-      </div> */}
+
       <div className=" h-auto w-full grid grid-cols-1 sm:grid-cols-2 gap-[20px] p-[20px]">
         <div>
           <img
@@ -133,7 +131,6 @@ export default function Home() {
         </div>
       </div>
       <br />
-      
     </>
   );
 }

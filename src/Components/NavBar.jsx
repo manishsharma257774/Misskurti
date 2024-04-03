@@ -11,7 +11,7 @@ export default function NavBar() {
     <>
       <div className="bg-teal-700 h-[37px] w-[100%] text-[15px] flex items-center sm:justify-between justify-center px-[20px]  text-white">
         <div class="font-medium">
-          <ul className="flex items-center justify-center gap-[20px] rexr">
+          <ul className="flex items-center justify-center gap-[20px]">
             <li>
               <i className="bi bi-telephone-fill p-[5px]"></i> +91-94613 06281{" "}
             </li>
