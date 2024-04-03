@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-    <div className="h-auto w-full p-[5px]">
+      <div className="h-auto w-full p-[5px]">
         <h1 className="text-[30px]">Search Products</h1>
         <p className="">
           <input
@@ -197,6 +197,9 @@ export default function Footer() {
                     </li>
                     <li>
                       <i class="bi bi-instagram"></i>
+                    </li>
+                    <li>
+                      <i class="bi bi-linkedin"></i>
                     </li>
                   </ul>
                 </span>
